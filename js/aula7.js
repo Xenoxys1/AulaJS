@@ -4,8 +4,9 @@ function converterDolar(valor) {
 }
 
 function mostrarResultado(nome, valor) {
-    document.write(`O valor do produto ${nome} em reais é R$${valor}
-     convertido para dolar é $${converterDolar(valor).toFixed(2)}`);
+    const res = document.getElementById('resultado');
+    res.textContent = `O valor do produto ${nome} em reais é R$${valor}
+     convertido para dolar é $${converterDolar(valor).toFixed(2)}`;
 }
 
 function pegarValor() {
