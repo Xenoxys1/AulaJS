@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 8</title>
+    <link rel="stylesheet" href="/css/aula8.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Aula 8 - Controlador de Disciplina</h1>
+    </header>
+
+    <main>
+
+        <div class="form">
+            <input type="text" id="dis" placeholder="Disciplina">
+            <input type="number" id="dias" step="1" placeholder="Quant. Dias">
+            <input type="number" id="falta" step="1" placeholder="Faltas">
+            <input type="number" id="media" step="0.1" placeholder="Média">
+
+            <div id="botao">
+                <button id="verifica" onclick="pegarValor()">Verificar</button>
+                <button id="reset" onclick="limpar()">Limpar</button>
+            </div>
+
+        </div>
+
+        <div class="res">
+            <p id="resultado">Resultado</p>
+        </div>
+
+    </main>
+
+    <p><a href="/html/menu.html">Voltar</a></p>
+    <script src="/js/aula8.js"></script>
+</body>
+
+</html>
