@@ -21,7 +21,7 @@ header{
 
 main{
     width: 100vw;
-    height: 475px;
+    height: 535px;
     border-top: 5px solid black;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ main{
     display: flex;
     margin: 10px 60px;
 }
-.form .buceta{
+.form .botao{
     width: 120px;
     height: 35px;
     margin: 5px auto;
@@ -54,7 +54,7 @@ main{
     cursor: pointer;
 }
 
-.form .buceta:hover{
+.form .botao:hover{
     width: 120px;
     height: 35px;
     margin: 5px auto;

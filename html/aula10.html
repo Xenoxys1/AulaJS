@@ -18,7 +18,7 @@
         <div class="form">
             <div class="insert">
                 <input type="text" id="minus1" placeholder="Minúsculo">
-                <button class="buceta" onclick="converte1()">Converter</button>
+                <button class="botao" onclick="pegarMinus()">Converter</button>
             </div>
             <input type="text" id="mais1" placeholder="Maiúsculo" disabled>
         </div>
@@ -26,7 +26,7 @@
         <div class="form">
             <div class="insert">
                 <input type="text" id="mais2" placeholder="Maiúsculo">
-                <button class="buceta" onclick="converte2()">Converter</button>
+                <button class="botao" onclick="pegarMais()">Converter</button>
             </div>
             <input type="text" id="minus2" placeholder="Minúsculo" disabled>
         </div>
@@ -34,19 +34,26 @@
         <div class="form">
             <div class="insert">
                 <input type="text" id="palavra" placeholder="Palavra">
-                <button class="buceta">Conta caracteres</button>
+                <button class="botao" onclick="pegarPal()">Conta caracteres</button>
             </div>
-            <p class="res">A palavra ? tem ? caractere(s)</p>
+            <p id="resultado">A palavra ? tem ? caractere(s)</p>
         </div>
 
         <div class="form">
             <div class="insert">
                 <input type="text" id="tex" placeholder="Texto">
-                <button class="buceta">Remover Espaço</button>
+                <button class="botao" onclick="pegarTex()">Remover Espaço</button>
             </div>
             <input type="text" id="noSpace" placeholder="Texto sem espaço" disabled>
         </div>
-        <button>Próxima página</button>
+
+        <div class="form">
+            <div class="insert">
+                <input type="text" id="pal2" placeholder="Palavra">
+                <button class="botao" onclick="pegarPal2()">Mostrar</button>
+            </div>
+            <input type="text" id="asterisk" placeholder="Palavra com A trocado por *" disabled>
+        </div>
 
         <p><a href="/html/menu.html">Voltar</a></p>
         <script src="/js/aula10.js"></script>
