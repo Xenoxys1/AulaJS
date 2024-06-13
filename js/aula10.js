@@ -40,10 +40,10 @@ function removerEspaco(textTex){
 
 function pegarPal2() {
     const nomePal2 = document.getElementById('pal2');
-    removerEspaco(nomePal2.value);
+    asterisco(nomePal2.value);
 }
 
-function removerEspaco(textPal2){
+function asterisco(textPal2){
     const pal2Res = document.getElementById('asterisk');
     pal2Res.value = textPal2.replace(/a|A/g, '*');
 }

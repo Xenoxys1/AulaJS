@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 12 - Cadastro</title>
+    <title>Aula 12 - Lista de Tarefas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="/css/aula12.css">
 </head>
+
 <body>
-    <h3> Cadastro de Valores</h3>
-    <label for="valor">Informe o valor:</label>
-    <input type="text" id="val">
-    <br>
-    <button onclick="addItem()">Salvar</button>
-    <button onclick="showItems()">Listar</button>
-    <button onclick="clearItems()">Limpar</button>
-    <br>
-    <div id="d"></div>
+    <h1>Lista de Tarefas</h1>
+
+    <div class="input-container">
+        <input type="text" id="new-todo" placeholder="Adicione uma tarefa">
+        <button onclick="addTodo()">Adicionar</button>
+    </div>
+    <ul id="todo-list"></ul>
 
     <p><a href="/html/menu.html">Voltar</a></p>
     <script src="/js/aula12.js"></script>
 </body>
+
 </html>
